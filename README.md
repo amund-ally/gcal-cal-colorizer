@@ -8,8 +8,9 @@ How to use
 * Click on "New Project"
 * Delete the function in the Code.gs file of your new project and paste this repo's Code.gs file into it
 * Modify the script
-  * Most likely all you need to do is add your own rules to the colorizeByRegex.
+  * Most likely all you need to do is add your own rules to the colorizeByRegex
   * You can click the Run button to test your rule and see if it changes your events as desired
+  * Note: if an event already has a color the script will skip it, but you can change this behavior
 * Once you have made and saved your changes, you will want to setup a trigger
   * On the left menu, click on Triggers (an alarm clock icon)
   * Click the "Add Trigger" button in the lower right of the page
